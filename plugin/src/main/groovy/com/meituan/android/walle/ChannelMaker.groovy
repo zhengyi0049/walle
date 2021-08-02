@@ -28,9 +28,9 @@ class ChannelMaker extends DefaultTask {
 
     private static final String DOT_APK = ".apk";
 
-    @Input
+    @InputFile
     public BaseVariant variant;
-    @Input
+    @InputFile
     public Project targetProject;
 
     public void setup() {
